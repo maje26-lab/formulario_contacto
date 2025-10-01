@@ -1,0 +1,381 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fondo general */
+body {
+    background: #f9f0f7; /* color pastel suave */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px 60px; /* más espacio arriba para el título */
+}
+
+/* Título principal en la parte superior */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2.8rem;
+    color: #d6336c; /* rosa fuerte */
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(214, 51, 108, 0.4);
+    width: 100%;
+    max-width: 420px;
+}
+
+/* Contenedor del formulario */
+form {
+    background: #fff0f6; /* rosa muy suave */
+    padding: 35px 45px;
+    border-radius: 15px;
+    box-shadow: 0 12px 25px rgba(214, 51, 108, 0.2);
+    width: 100%;
+    max-width: 420px;
+    border: 2px solid #f3a6c1;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre el formulario */
+form:hover {
+    box-shadow: 0 18px 30px rgba(214, 51, 108, 0.4);
+}
+
+/* Etiquetas */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700;
+    color: #9b2c66;
+    font-size: 1rem;
+}
+
+/* Inputs y textarea */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #f3a6c1;
+    border-radius: 12px;
+    font-size: 1rem;
+    color: #5a2a4a;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Focus en inputs */
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #d6336c;
+    box-shadow: 0 0 8px rgba(214, 51, 108, 0.5);
+    outline: none;
+    background-color: #fff0f6;
+}
+
+/* Botón enviar */
+input[type="submit"] {
+    background-color: #d6336c;
+    color: white;
+    padding: 14px 0;
+    width: 100%;
+    border: none;
+    border-radius: 14px;
+    font-weight: 800;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 10px rgba(214, 51, 108, 0.3);
+}
+
+/* Hover en botón */
+input[type="submit"]:hover {
+    background-color: #a02c57;
+    box-shadow: 0 8px 15px rgba(160, 44, 87, 0.5);
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 2rem;
+        letter-spacing: 1.5px;
+        margin-bottom: 30px;
+    }
+
+    form {
+        padding: 25px 30px;
+        border-radius: 12px;
+    }
+
+    input[type="submit"] {
+        font-size: 1rem;
+        padding: 12px 0;
+    }
+}
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fondo general */
+body {
+    background: #f9f0f7; /* color pastel suave */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px 60px; /* más espacio arriba para el título */
+}
+
+/* Título principal en la parte superior */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2.8rem;
+    color: #d6336c; /* rosa fuerte */
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(214, 51, 108, 0.4);
+    width: 100%;
+    max-width: 420px;
+}
+
+/* Contenedor del formulario */
+form {
+    background: #fff0f6; /* rosa muy suave */
+    padding: 35px 45px;
+    border-radius: 15px;
+    box-shadow: 0 12px 25px rgba(214, 51, 108, 0.2);
+    width: 100%;
+    max-width: 420px;
+    border: 2px solid #f3a6c1;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre el formulario */
+form:hover {
+    box-shadow: 0 18px 30px rgba(214, 51, 108, 0.4);
+}
+
+/* Etiquetas */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700;
+    color: #9b2c66;
+    font-size: 1rem;
+}
+
+/* Inputs y textarea */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #f3a6c1;
+    border-radius: 12px;
+    font-size: 1rem;
+    color: #5a2a4a;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Focus en inputs */
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #d6336c;
+    box-shadow: 0 0 8px rgba(214, 51, 108, 0.5);
+    outline: none;
+    background-color: #fff0f6;
+}
+
+/* Botón enviar */
+input[type="submit"] {
+    background-color: #d6336c;
+    color: white;
+    padding: 14px 0;
+    width: 100%;
+    border: none;
+    border-radius: 14px;
+    font-weight: 800;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 10px rgba(214, 51, 108, 0.3);
+}
+
+/* Hover en botón */
+input[type="submit"]:hover {
+    background-color: #a02c57;
+    box-shadow: 0 8px 15px rgba(160, 44, 87, 0.5);
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 2rem;
+        letter-spacing: 1.5px;
+        margin-bottom: 30px;
+    }
+
+    form {
+        padding: 25px 30px;
+        border-radius: 12px;
+    }
+
+    input[type="submit"] {
+        font-size: 1rem;
+        padding: 12px 0;
+    }
+}
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fondo general */
+body {
+    background: #f9f0f7; /* color pastel suave */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px 60px; /* más espacio arriba para el título */
+}
+
+/* Título principal en la parte superior */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2.8rem;
+    color: #d6336c; /* rosa fuerte */
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(214, 51, 108, 0.4);
+    width: 100%;
+    max-width: 420px;
+}
+
+/* Contenedor del formulario */
+form {
+    background: #fff0f6; /* rosa muy suave */
+    padding: 35px 45px;
+    border-radius: 15px;
+    box-shadow: 0 12px 25px rgba(214, 51, 108, 0.2);
+    width: 100%;
+    max-width: 420px;
+    border: 2px solid #f3a6c1;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre el formulario */
+form:hover {
+    box-shadow: 0 18px 30px rgba(214, 51, 108, 0.4);
+}
+
+/* Etiquetas */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700;
+    color: #9b2c66;
+    font-size: 1rem;
+}
+
+/* Inputs y textarea */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #f3a6c1;
+    border-radius: 12px;
+    font-size: 1rem;
+    color: #5a2a4a;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Focus en inputs */
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #d6336c;
+    box-shadow: 0 0 8px rgba(214, 51, 108, 0.5);
+    outline: none;
+    background-color: #fff0f6;
+}
+
+/* Botón enviar */
+input[type="submit"] {
+    background-color: #d6336c;
+    color: white;
+    padding: 14px 0;
+    width: 100%;
+    border: none;
+    border-radius: 14px;
+    font-weight: 800;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 10px rgba(214, 51, 108, 0.3);
+}
+
+/* Hover en botón */
+input[type="submit"]:hover {
+    background-color: #a02c57;
+    box-shadow: 0 8px 15px rgba(160, 44, 87, 0.5);
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 2rem;
+        letter-spacing: 1.5px;
+        margin-bottom: 30px;
+    }
+
+    form {
+        padding: 25px 30px;
+        border-radius: 12px;
+    }
+
+    input[type="submit"] {
+        font-size: 1rem;
+        padding: 12px 0;
+    }
+}
